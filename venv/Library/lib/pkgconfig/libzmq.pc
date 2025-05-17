@@ -1,0 +1,12 @@
+prefix=c:/GENAI/VENV/Library
+exec_prefix=c:/GENAI/VENV/Library
+libdir=c:/GENAI/VENV/Library/lib
+includedir=c:/GENAI/VENV/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
